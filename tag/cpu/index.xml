@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CPU | Bohan HU</title>
+    <link>https://bohan-hu.github.io/tag/cpu/</link>
+      <atom:link href="https://bohan-hu.github.io/tag/cpu/index.xml" rel="self" type="application/rss+xml" />
+    <description>CPU</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 10:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bohan-hu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>CPU</title>
+      <link>https://bohan-hu.github.io/tag/cpu/</link>
+    </image>
+    
+    <item>
+      <title>A RISC-V Processor Core running Linux</title>
+      <link>https://bohan-hu.github.io/project/osoc/</link>
+      <pubDate>Wed, 01 Sep 2021 10:00:00 +0000</pubDate>
+      <guid>https://bohan-hu.github.io/project/osoc/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Designed a minimal die-area but fully functional core capable of running Linux operating system&lt;/li&gt;
+&lt;li&gt;Self-implemented the processor core from scratch&lt;/li&gt;
+&lt;li&gt;Designed a 3-stage pipeline including (1) instruction fetch, (2) decode &amp;amp; execute and (3) commit &amp;amp; exception handling&lt;/li&gt;
+&lt;li&gt;Implemented Translation Lookaside Buffer and hardware Page Table Walker to support hardware virtual memory management&lt;/li&gt;
+&lt;li&gt;Implemented AXI interface to integrate the core into SoC that work with peripherals (DDR controllers, Ethernet, etc.)&lt;/li&gt;
+&lt;li&gt;Taped-out on Dec. 29th with SMIC 110nm technology node&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MIPS Out-of-Order Superscalar Processor on FPGA</title>
+      <link>https://bohan-hu.github.io/project/nscscc2020/</link>
+      <pubDate>Wed, 05 Aug 2020 10:00:00 +0000</pubDate>
+      <guid>https://bohan-hu.github.io/project/nscscc2020/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Self-learned micro-processor design and implemented a 10-stage Out-of-Order superscalar processor, with 2-way fetch, 2-way dispatch, 4-way issue, 2-way commit&lt;/li&gt;
+&lt;li&gt;Implemented features: (1) GShare / TAGE overriding branch predictor, with a 256-entry Branch Target Buffer and a 16-entry Next Line Predictor; (2) Pipeline flushing on branch misprediction and precise exception handling; (3) 2 integer units, 1 pipelined multiplication and division unit and 1 pipelined load/store unit, with grouped bypass network; (4) 4KiB 4-way instruction cache with Pseudo-LRU replacement policy and 16KiB non-blocking data cache to avoid stalling the load/store pipeline on cache misses; (5) Use ROB to force the MMIO access seen in order; (6) Explicit register renaming to handle WAW, WAR hazards&lt;/li&gt;
+&lt;li&gt;Considered area-timing trade-off to improve the timing on issue unit, reorder buffer and instruction queue, and improved the frequency by 15 MHz using canonical diagrams, multi-selector path optimization, and redundant logic elimination&lt;/li&gt;
+&lt;li&gt;RTL design using Verilog, synthesis and implementation using Vivado, with target frequency 88 MHz on Artix-7 FPGA&lt;/li&gt;
+&lt;li&gt;Implemented AXI interface and integrated the processor in a SoC with LCD, UART and DDR, capable of running RTOS&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

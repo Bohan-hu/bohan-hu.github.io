@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Bohan HU</title>
+    <link>https://bohan-hu.github.io/event/</link>
+      <atom:link href="https://bohan-hu.github.io/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 25 Jun 2021 10:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bohan-hu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://bohan-hu.github.io/event/</link>
+    </image>
+    
+    <item>
+      <title>RISC-V虚拟内存扩展的概念验证</title>
+      <link>https://bohan-hu.github.io/talk/risc-v%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98%E6%89%A9%E5%B1%95%E7%9A%84%E6%A6%82%E5%BF%B5%E9%AA%8C%E8%AF%81/</link>
+      <pubDate>Fri, 25 Jun 2021 10:00:00 +0000</pubDate>
+      <guid>https://bohan-hu.github.io/talk/risc-v%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98%E6%89%A9%E5%B1%95%E7%9A%84%E6%A6%82%E5%BF%B5%E9%AA%8C%E8%AF%81/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
