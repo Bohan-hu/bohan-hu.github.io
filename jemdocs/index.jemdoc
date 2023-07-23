@@ -1,0 +1,41 @@
+# jemdoc: menu{MENU}{index.html}, nofooter, analytics{G-RFXC6GWF1V}
+= Bohan HU (胡博涵)
+
+~~~
+{}{img_left}{imgs/avatar.jpg}{alt text}{160px}{160px}
+*Bohan HU*, Ph.D. Student in Microelectronics \n
+[https://gz.ust.hk The Hong Kong University of Science and Technology (Guangzhou)] \n
+No.1 Duxue Road, Guangzhou, Guangdong, China \n
+*Email*: [mailto:bhu065@connect.hkust-gz.edu.cn] \n
+[files/CV.pdf \[CV\]] \M [https://www.github.com/Bohan-hu \[Github\]]
+~~~
+
+~~~
+I'm a second-year Ph.D. student from Microelectronics Thrust, 
+Function Hub, The Hong Kong University of Science and Technology (Guangzhou), under the supervision of [https://eexu.home.ece.ust.hk Prof. Jiang XU].
+
+I’m feeling lucky to be in the “golden decades” of computer architecture research and have been self-motivated to explore technologies in microprocessors as well as novel architectures.
+
+I enjoy Rock music, and I’m a big fan of the alternative rock band “Omnipotent Youth Society.”
+~~~
+
+== Research Interests
+- Computer architecture
+- Machine learning systems
+
+== Education
+- MS in Electrical and Computer Engineering, Georgia Instute of Technology, Aug. 2021 - Aug. 2022
+- B.Eng. in Computer Science, Harbin Institute of Technology, Aug. 2017 - Jun. 2021
+
+== Experience
+- Research Intern \M Peng Cheng National Lab \M May 2021 - July 2022
+  -- Hardware design of RV-based binary translation accelerator
+  -- Implementation of CPU-FPGA communication scheme for OSOC(一生一芯) Project
+- Microprocessor Design Intern \M Loongson Technology \M Sept. 2020 - Apr. 2021
+  -- Work on the optimization of floating point unit and compiler support
+
+== Skills
+- Digital design: Verilog, Chisel
+- Programming: C, C++, Python, Scala
+- Tools: LaTeX, Linux
+

@@ -1,0 +1,23 @@
+# jemdoc: menu{MENU}{proj.html}, nofooter, analytics{G-RFXC6GWF1V}
+= Projects
+
+- A RISC-V Processor Core running Linux \M [https://github.com/Bohan-Hu/RV-Lite-OSOC \[Code\]]
+-- Designed a 3-stage pipeline including (1) instruction fetch, (2) decode & execute and (3) commit & exception handling
+-- Implemented Translation Lookaside Buffer and hardware Page Table Walker to support hardware virtual memory management
+-- Implemented AXI interface to integrate the core into SoC that work with peripherals (DDR controllers, Ethernet, etc.)
+
+- MIPS Out-of-Order Superscalar Processor on FPGA \M [https://github.com/Superscalar-HIT-Core/Superscalar-HIT-Core-NSCSCC2020/blob/master/design_doc.pdf \[Doc\]] \M [https://github.com/Superscalar-HIT-Core/Superscalar-HIT-Core-NSCSCC2020 \[Code\]] \M [https://github.com/Superscalar-HIT-Core/Superscalar-HIT-Core-NSCSCC2020/blob/master/presentation.pdf \[Slides]]
+-- GShare / TAGE overriding branch predictor, with a 256-entry Branch Target Buffer and a 16-entry
+-- Next Line Predictor
+-- Pipeline flushing on branch misprediction and precise exception handling
+-- 2 integer units, 1 pipelined multiplication and division unit and 1 pipelined load/store unit, with grouped bypass network
+-- 4KiB 4-way instruction cache with Pseudo-LRU replacement policy and 16KiB non-blocking data cache to avoid stalling the load/store pipeline on cache misses
+-- Use ROB to force the MMIO access seen in order
+-- Explicit register renaming to handle WAW, WAR hazards
+-- Exceeded the 40x IPC than Loongson GS132 (single-issue, 3-stage pipeline) on crc32, select sort, 30x on sha, stream copy
+-- RTL design using Verilog, synthesis and implementation using Vivado, with target frequency 88 MHz on Artix-7 FPGA
+
+= Presentations 
+
+- RISC-V虚拟内存扩展的概念验证  \M Jun. 25, 2021 \M Shanghai, China (Virtual talk) \M [https://www.bilibili.com/video/BV1564y1z7Xv/?spm_id_from=333.337.search-card.all.click&vd_source=7122cb248a7a21c0a260938d9f53b381 \[Video\]]
+-- Discussed the recent progress in the POC for several RISC-V virtual memory extension.

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="css/jacob.css" type="text/css" />
+<title>Projects</title>
+</head>
+<body>
+<!-- MathJax -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2725246-3']);
+_gaq.push(['_trackPageview']);
+(function() {
+ var ga = document.createElement('script'); ga.type =
+ 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+   : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0];
+ s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("G-RFXC6GWF1V");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Home</div>
+<div class="menu-item"><a href="index.html">Bio</a></div>
+<div class="menu-item"><a href="pub.html">Publications</a></div>
+<div class="menu-item"><a href="proj.html" class="current">Projects</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="modelines.html">Model</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Projects</h1>
+</div>
+<ul>
+<li><p>A RISC-V Processor Core running Linux &middot; <a href="https://github.com/Bohan-Hu/RV-Lite-OSOC" target=&ldquo;blank&rdquo;>[Code]</a>
+</p>
+<ul>
+<li><p>Designed a 3-stage pipeline including (1) instruction fetch, (2) decode &amp; execute and (3) commit &amp; exception handling
+</p>
+</li>
+<li><p>Implemented Translation Lookaside Buffer and hardware Page Table Walker to support hardware virtual memory management
+</p>
+</li>
+<li><p>Implemented AXI interface to integrate the core into SoC that work with peripherals (DDR controllers, Ethernet, etc.)
+</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p>MIPS Out-of-Order Superscalar Processor on FPGA &middot; <a href="https://github.com/Superscalar-HIT-Core/Superscalar-HIT-Core-NSCSCC2020/blob/master/design_doc.pdf" target=&ldquo;blank&rdquo;>[Doc]</a> &middot; <a href="https://github.com/Superscalar-HIT-Core/Superscalar-HIT-Core-NSCSCC2020" target=&ldquo;blank&rdquo;>[Code]</a> &middot; <a href="https://github.com/Superscalar-HIT-Core/Superscalar-HIT-Core-NSCSCC2020/blob/master/presentation.pdf" target=&ldquo;blank&rdquo;>[Slides</a>]
+</p>
+<ul>
+<li><p>GShare / TAGE overriding branch predictor, with a 256-entry Branch Target Buffer and a 16-entry
+</p>
+</li>
+<li><p>Next Line Predictor
+</p>
+</li>
+<li><p>Pipeline flushing on branch misprediction and precise exception handling
+</p>
+</li>
+<li><p>2 integer units, 1 pipelined multiplication and division unit and 1 pipelined load/store unit, with grouped bypass network
+</p>
+</li>
+<li><p>4KiB 4-way instruction cache with Pseudo-LRU replacement policy and 16KiB non-blocking data cache to avoid stalling the load/store pipeline on cache misses
+</p>
+</li>
+<li><p>Use ROB to force the MMIO access seen in order
+</p>
+</li>
+<li><p>Explicit register renaming to handle WAW, WAR hazards
+</p>
+</li>
+<li><p>Exceeded the 40x IPC than Loongson GS132 (single-issue, 3-stage pipeline) on crc32, select sort, 30x on sha, stream copy
+</p>
+</li>
+<li><p>RTL design using Verilog, synthesis and implementation using Vivado, with target frequency 88 MHz on Artix-7 FPGA
+</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<h1>Presentations </h1>
+<ul>
+<li><p>RISC-V虚拟内存扩展的概念验证  &middot; Jun. 25, 2021 &middot; Shanghai, China (Virtual talk) &middot; <a href="https://www.bilibili.com/video/BV1564y1z7Xv/?spm_id_from=333.337.search-card.all.click&amp;vd_source=7122cb248a7a21c0a260938d9f53b381" target=&ldquo;blank&rdquo;>[Video]</a>
+</p>
+<ul>
+<li><p>Discussed the recent progress in the POC for several RISC-V virtual memory extension.
+</p>
+</li>
+</ul>
+
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</body>
+</html>
