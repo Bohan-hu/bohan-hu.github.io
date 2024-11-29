@@ -1,15 +1,23 @@
 # jemdoc: menu{MENU}{teaching.html}, nofooter, analytics{G-RFXC6GWF1V}
 = Teaching Assistant
 
-- [https://comp2008.gitee.io/archived Principles of Computer Organization] \M 2020 Spring & 2021 Spring \M Harbin Institute of Technology, Shenzhen
+== HKUST(GZ)
+
+- [https://hkust-gz.instructure.com/courses/1197 UFUG1601 - Introduction to Computer Science] \M 2024 Fall
+
+
+== HITSZ
+
+- [https://comp2008.gitee.io/archived Principles of Computer Organization] \M 2020 Spring & 2021 Spring
 -- Designed and improved lab instructions for the two courses and answered students’ questions
 -- Built automated test platform with Docker running Vivado and Icarus Verilog simulator, wrote scripts for grading homework
 -- Designed training programs for National Student Computer System Capability Challenge (NSCSCC) and delivered lectures
 
-- [https://hitsz-cslab.gitee.io/arch/ Computer Architecture] \M 2021 Spring \M Harbin Institute of Technology, Shenzhen
+- [https://hitsz-cslab.gitee.io/arch/ Computer Architecture] \M 2021 Spring
 -- Helped solving student’s questions and grading lab reports.
 
-- [https://hitsz-cslab.gitee.io/cpu/ Computer Design Practice] \M 2020 Spring & 2021 Summer \M Harbin Institute of Technology, Shenzhen
+- [https://hitsz-cslab.gitee.io/cpu/ Computer Design Practice] \M 2020 Spring & 2021 Summer
 -- Developed a [https://github.com/HITSZ-CDP/cdp-tests RISC-V CPU verification framework] for course labs
 -- Developed an automated building and testing system to help student evaluate their design
+
 

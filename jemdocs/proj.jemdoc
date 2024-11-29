@@ -1,6 +1,21 @@
 # jemdoc: menu{MENU}{proj.html}, nofooter, analytics{G-RFXC6GWF1V}
 = Projects
 
+== Tools
+
+- PCC: MLIR-Based Compilation Framework for Photonic-Electronic Accelerators
+-- Created an end-to-end compilation framework for neural networks using MLIR and LLVM for photonic-electronic accelerators
+-- Utilized MLIR to automate the mapping of high-level DNN specifications to photonic hardware architectures
+-- Demonstrated up to 4x speedup on DNN workloads compared to traditional hand-crafted implementations using custom optimizations
+-- Positioned the framework as a foundational tool for developing novel photonic circuit designs for real-world AI applications.
+
+- FIONA: Full-Stack Photonic-Electronic Architectural Simulation Framework
+-- Designed an ISA for photonic-electronic collaborative processor
+-- Implemented a baseline vector processing unit (FIONA-V) compatible with photonic computation circuits
+-- Capable of simulating photonic circuits with the electronic counterparts. 
+
+== CPU Cores
+
 - A RISC-V Processor Core running Linux \M [https://github.com/Bohan-Hu/RV-Lite-OSOC \[Code\]]
 -- Designed a 3-stage pipeline including (1) instruction fetch, (2) decode & execute and (3) commit & exception handling
 -- Implemented Translation Lookaside Buffer and hardware Page Table Walker to support hardware virtual memory management

@@ -2,5 +2,9 @@
 = Publications
 
 == Conference
+- BEAM: A Multi-Channel Optical Interconnect for Multi-GPU Systems\n
+    Chongyi Yang, *Bohan Hu*, Peiyu Chen, Yinyi Liu, Wei Zhang, Jiang Xu*\n Design, Automation and Test in Europe Conference and Exhibition (DATE), Lyon, France, April 2025.
+- PCC: An End-to-End Compilation Framework for Neural Networks on Photonic-Electronic Accelerators\n
+    *Bohan Hu*, Yinyi Liu, Zhenguo Liu, Wei Zhang, Jiang Xu*\n IEEE International Conference on Computer Design (ICCD), Milan, Italy, November 2024.
 - FIONA: Photonic-Electronic Co-Simulation Framework and Transferable Prototyping for Photonic Accelerator\n
-    Yinyi Liu, *Bohan Hu*, Zhenguo Liu, Peiyu Chen, Linfeng Du, Jiaqi Liu, Xianbin Li, Wei Zhang, Jiang Xu\n IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Francisco, California, USA, October 2023
+    Yinyi Liu (co-first author), *Bohan Hu* (co-first author), Zhenguo Liu, Peiyu Chen, Linfeng Du, Jiaqi Liu, Xianbin Li, Wei Zhang, Jiang Xu\n IEEE/ACM International Conference on Computer-Aided Design (ICCAD), San Francisco, California, USA, October 2023
